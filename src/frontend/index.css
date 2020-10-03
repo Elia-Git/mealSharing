@@ -1,4 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(239, 236, 243);
+}
+
+/* Header */
+div.header {
+  background-color: rgb(142, 131, 182);
+  height: 7rem;
+}
+div.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+div.header,
+a {
+  text-decoration: none;
+}
+
+div.footer {
+  background-color: rgb(167, 147, 120);
+}
+
+/*Reservation part*/
+
+.reservation-form {
+  background-color: rgb(221, 233, 233);
+  width: 20rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 5rem;
+}
+
+#reservation-button {
+  background-color: chartreuse;
+}
+
+.meal_table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+input[type="text"] {
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid steelblue;
+}
+
+input[type="text"],
+[type="datetime"],
+[type="date"],
+[type="decimal"],
+[type="number"],
+[type="password"],
+[type="email"],
+[type="searchbar"],
+[type="textarea"] {
+  display: block;
+  /* margin-bottom: 2rem; */
+  width: 20rem;
+  height: 2.5rem;
+  border: 2px solid steelblue;
+  background: #faf6d9;
+}
+
+button[type="submit"] {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  background: steelblue;
+  color: white;
 }
